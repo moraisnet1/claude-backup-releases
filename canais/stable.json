@@ -1,6 +1,18 @@
 {
   "formato": 1,
   "canal": "stable",
-  "serie": 1,
-  "versoes": []
+  "serie": 2,
+  "versoes": [
+    {
+      "versao": "1.2.0",
+      "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v1.2.0/ClaudeBackup-1.2.0.exe",
+      "sha256": "098ef6b0f082ec019e444e9b9f8b04b44137a3ee906d00ca571372ea9c25e1e6",
+      "tamanho": 100401664,
+      "versaoMinima": null,
+      "notas": "O que mudou",
+      "publicadaEm": "2026-11-15T23:04:27.919Z",
+      "percentual": 100,
+      "bloqueada": false
+    }
+  ]
 }
