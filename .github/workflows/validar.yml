@@ -1,0 +1,33 @@
+name: validar
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+# Só leitura: confere os manifestos, não publica nada.
+permissions:
+  contents: read
+
+jobs:
+  manifestos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: main atual (para comparar a série)
+        if: github.event_name == 'pull_request'
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: base
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.x"
+      - name: Conferir assinatura, formato e série
+        run: |
+          if [ -d base ]; then node .github/scripts/validar-canais.js base; else node .github/scripts/validar-canais.js; fi
