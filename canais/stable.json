@@ -1,7 +1,7 @@
 {
   "formato": 1,
   "canal": "stable",
-  "serie": 2,
+  "serie": 3,
   "versoes": [
     {
       "versao": "1.2.0",
@@ -12,7 +12,7 @@
       "notas": "O que mudou",
       "publicadaEm": "2026-11-15T23:04:27.919Z",
       "percentual": 100,
-      "bloqueada": false
+      "bloqueada": true
     }
   ]
 }
