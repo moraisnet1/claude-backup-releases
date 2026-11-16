@@ -1,8 +1,19 @@
 {
   "formato": 1,
   "canal": "beta",
-  "serie": 5,
+  "serie": 6,
   "versoes": [
+    {
+      "versao": "2.1.1",
+      "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v2.1.1/ClaudeBackup-2.1.1.exe",
+      "sha256": "ec9afab7ec4a990a2be34739397792d7a1bd9561d5447c761ae36a4c18adb940",
+      "tamanho": 100662272,
+      "versaoMinima": null,
+      "notas": "Correção da atualização automática: a versão nova agora substitui o executável no mesmo lugar e abre sozinha. Se a versão nova não abrir, a anterior volta automaticamente. Se o computador desligar no meio, a próxima abertura termina ou desfaz a troca. Atalhos, inicialização com o Windows e todos os dados continuam intactos.",
+      "publicadaEm": "2026-11-16T14:57:52.815Z",
+      "percentual": 100,
+      "bloqueada": false
+    },
     {
       "versao": "2.1.0",
       "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v2.1.0/ClaudeBackup-2.1.0.exe",
