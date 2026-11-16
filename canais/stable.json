@@ -1,8 +1,19 @@
 {
   "formato": 1,
   "canal": "stable",
-  "serie": 3,
+  "serie": 4,
   "versoes": [
+    {
+      "versao": "2.0.0",
+      "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v2.0.0/ClaudeBackup-2.0.0.exe",
+      "sha256": "b6ce4d6d687ecf40bacac7f2d77aabd983014b7c02cde52f10d52b9a367dfd25",
+      "tamanho": 100470272,
+      "versaoMinima": null,
+      "notas": "Claude Backup 2.0: interface nova com barra lateral e tema claro/escuro, modos de backup (completo, só configurações, só projetos), escolha da pasta do backup, restauração parcial (categorias e skills), histórico com restaurar versão anterior, prévia antes de restaurar projetos e iniciar com o Windows.",
+      "publicadaEm": "2026-11-16T01:49:00.882Z",
+      "percentual": 100,
+      "bloqueada": false
+    },
     {
       "versao": "1.2.0",
       "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v1.2.0/ClaudeBackup-1.2.0.exe",
