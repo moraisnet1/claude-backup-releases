@@ -1,8 +1,19 @@
 {
   "formato": 1,
   "canal": "beta",
-  "serie": 4,
+  "serie": 5,
   "versoes": [
+    {
+      "versao": "2.1.0",
+      "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v2.1.0/ClaudeBackup-2.1.0.exe",
+      "sha256": "8fcd84ef6c9eb33bc8dc2d46fce3ca63d7d287e99720f54518fc0603b488873c",
+      "tamanho": 100656640,
+      "versaoMinima": null,
+      "notas": "Descoberta de projetos (computador, GitHub e Drive); backup completo, só configurações ou só projetos; senha por projeto ou senha padrão; restauração de plugins mais rápida, com progresso e relatório; avisos de credenciais sem falsos positivos, com opção de tirar o arquivo do backup; explorador de pastas no próprio app; visual novo no estilo do Windows 11, com ícone novo; atalho só a pedido; o navegador não oferece mais salvar senha.",
+      "publicadaEm": "2026-11-16T14:21:03.878Z",
+      "percentual": 100,
+      "bloqueada": false
+    },
     {
       "versao": "2.0.0",
       "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v2.0.0/ClaudeBackup-2.0.0.exe",
