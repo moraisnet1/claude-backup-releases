@@ -1,8 +1,19 @@
 {
   "formato": 1,
   "canal": "stable",
-  "serie": 6,
+  "serie": 7,
   "versoes": [
+    {
+      "versao": "2.2.0",
+      "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v2.2.0/ClaudeBackup_v2.2.0.exe",
+      "sha256": "251fd8fe9cc2d8dc607cc4d9a3ffffc18edf2075b9a9fb7f549b91ae7403b288",
+      "tamanho": 101022720,
+      "versaoMinima": null,
+      "notas": "Ícone nítido na barra de tarefas. Diagnóstico novo: mostra a gravidade de cada problema e corrige sozinho o que dá (com confirmação antes de qualquer download), com andamento e lista do que foi resolvido e do que ainda falta. O executável agora leva a versão no nome (ClaudeBackup_v2.2.0.exe) e a atualização não deixa cópias antigas; atalhos, inicialização com o Windows e salvamento automático passam a abrir a versão nova. Backups não são reenviados quando nada mudou.",
+      "publicadaEm": "2026-11-16T22:21:06.612Z",
+      "percentual": 100,
+      "bloqueada": false
+    },
     {
       "versao": "2.1.1",
       "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v2.1.1/ClaudeBackup-2.1.1.exe",
