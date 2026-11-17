@@ -1,8 +1,19 @@
 {
   "formato": 1,
   "canal": "beta",
-  "serie": 7,
+  "serie": 8,
   "versoes": [
+    {
+      "versao": "2.3.0",
+      "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v2.3.0/ClaudeBackup_v2.3.0.exe",
+      "sha256": "5c9a60e45b10cdb854753bd7fe9b70de55e3595a8428ddf382b5470fbca7e85a",
+      "tamanho": 101041152,
+      "versaoMinima": null,
+      "notas": "Diagnostico dos pre-requisitos do app, configuracoes do Claude so no Google Drive, projetos so pelo GitHub com conversas e segredos no Drive, botao Abrir no Claude Code por projeto, envio automatico do codigo ao GitHub sem segredos",
+      "publicadaEm": "2026-11-17T01:02:16.946Z",
+      "percentual": 100,
+      "bloqueada": false
+    },
     {
       "versao": "2.2.0",
       "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v2.2.0/ClaudeBackup_v2.2.0.exe",
