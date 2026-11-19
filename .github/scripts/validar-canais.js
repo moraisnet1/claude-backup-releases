@@ -1,4 +1,6 @@
 // Confere os manifestos dos canais antes de aceitar uma alteração na main:
+// Só o repositório da URL pode mudar (renomeação); o resto (tag e arquivo) e o hash são imutáveis.
+const semRepo = (u) => String(u).replace(/^(https://github.com/)[^/]+/[^/]+(/releases/download/)/, '$1REPO$2');
 // assinatura Ed25519 com a chave pública do app, formato, URLs só deste
 // repositório e série que nunca volta atrás (em relação à main).
 // Uso: node .github/scripts/validar-canais.js [pasta-da-main-para-comparar]
@@ -49,7 +51,7 @@ for (const canal of ['stable', 'beta']) {
       for (const v of a.versoes || []) {
         const agora = m.versoes.find((x) => x.versao === v.versao);
         if (!agora) erro(canal + ' ' + v.versao + ': versão publicada não pode sumir (bloqueie em vez de apagar)');
-        else if (agora.sha256 !== v.sha256 || agora.url !== v.url) erro(canal + ' ' + v.versao + ': arquivo de versão publicada não pode mudar');
+        else if (agora.sha256 !== v.sha256 || semRepo(agora.url) !== semRepo(v.url)) erro(canal + ' ' + v.versao + ': arquivo de versão publicada não pode mudar');
       }
     }
   }
