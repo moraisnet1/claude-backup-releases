@@ -1,8 +1,19 @@
 {
   "formato": 1,
   "canal": "stable",
-  "serie": 9,
+  "serie": 10,
   "versoes": [
+    {
+      "versao": "2.5.0",
+      "url": "https://github.com/moraisnet1/morn-backup-releases/releases/download/v2.5.0/MornBackup_v2.5.0.exe",
+      "sha256": "58fe60f1fa3aa1490e04d972f7b8c16a5f5262f5bb808d6a7f93b315998ade8a",
+      "tamanho": 101062144,
+      "versaoMinima": null,
+      "notas": "Morn Backup 2.5.0: novo nome com migracao automatica dos dados, codigo dos projetos no Drive sem commit/push (GitHub so para baixar), segredos do claude-mem cifrados, icone na bandeja ao iniciar com o Windows.",
+      "publicadaEm": "2026-11-19T14:17:08.740Z",
+      "percentual": 100,
+      "bloqueada": false
+    },
     {
       "versao": "2.4.0",
       "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v2.4.0/ClaudeBackup_v2.4.0.exe",
