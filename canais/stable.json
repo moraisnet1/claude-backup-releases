@@ -1,8 +1,19 @@
 {
   "formato": 1,
   "canal": "stable",
-  "serie": 8,
+  "serie": 9,
   "versoes": [
+    {
+      "versao": "2.4.0",
+      "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v2.4.0/ClaudeBackup_v2.4.0.exe",
+      "sha256": "57f920bc6c8d2e17cd3f934e56e2d1bb7a5ddb5fea7516648e7ef4ea8e3cce53",
+      "tamanho": 101052416,
+      "versaoMinima": null,
+      "notas": "Dois backups separados: Configuracoes e Projetos, com andamento visivel e horario correto do ultimo salvamento. Configuracoes agora incluem scripts, hooks, RTK.md, ajustes do claude-mem e plugins instalados, sem segredos. Menos arquivos duplicados e restauracao de plugins mais rapida.",
+      "publicadaEm": "2026-11-19T02:27:04.943Z",
+      "percentual": 100,
+      "bloqueada": false
+    },
     {
       "versao": "2.3.0",
       "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v2.3.0/ClaudeBackup_v2.3.0.exe",
