@@ -1,8 +1,19 @@
 {
   "formato": 1,
   "canal": "stable",
-  "serie": 10,
+  "serie": 11,
   "versoes": [
+    {
+      "versao": "2.5.1",
+      "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v2.5.1/MornBackup_v2.5.1.exe",
+      "sha256": "4a04d97fe654c218b7bb4bffc846cb26af0dc6e7a69c13084e2a26922aec4619",
+      "tamanho": 101062144,
+      "versaoMinima": null,
+      "notas": "Morn Backup 2.5.1: corrige a atualizacao automatica a partir da 2.4.0.",
+      "publicadaEm": "2026-11-19T14:33:47.775Z",
+      "percentual": 100,
+      "bloqueada": false
+    },
     {
       "versao": "2.5.0",
       "url": "https://github.com/moraisnet1/morn-backup-releases/releases/download/v2.5.0/MornBackup_v2.5.0.exe",
