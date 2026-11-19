@@ -9,7 +9,7 @@ const path = require('path');
 
 const raiz = path.resolve(__dirname, '..', '..');
 const base = process.argv[2] ? path.resolve(process.argv[2]) : null;
-const repo = process.env.GITHUB_REPOSITORY || 'moraisnet1/claude-backup-releases';
+const repo = process.env.GITHUB_REPOSITORY || 'moraisnet1/morn-backup-releases';
 const publica = crypto.createPublicKey(fs.readFileSync(path.join(raiz, 'chave-publica.pem')));
 if (publica.asymmetricKeyType !== 'ed25519') throw new Error('chave-publica.pem não é Ed25519');
 
@@ -35,7 +35,7 @@ for (const canal of ['stable', 'beta']) {
     if (!v || !SEMVER.test(String(v.versao))) { erro(id + ': versão inválida'); continue; }
     if (vistas.has(v.versao)) erro(id + ': versão repetida');
     vistas.add(v.versao);
-    if (!String(v.url).startsWith('https://github.com/' + repo + '/releases/download/')) erro(id + ': URL fora deste repositório');
+    if (![repo, 'moraisnet1/claude-backup-releases'].some((r) => String(v.url).startsWith('https://github.com/' + r + '/releases/download/'))) erro(id + ': URL fora deste repositório');
     if (!/^[0-9a-f]{64}$/.test(String(v.sha256))) erro(id + ': sha256 inválido');
     if (!Number.isInteger(v.tamanho) || v.tamanho <= 0) erro(id + ': tamanho inválido');
     if (canal === 'stable' && String(v.versao).includes('-')) erro(id + ': versão de teste no canal stable');
