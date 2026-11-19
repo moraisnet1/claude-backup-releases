@@ -1,7 +1,7 @@
 {
   "formato": 1,
   "canal": "stable",
-  "serie": 11,
+  "serie": 12,
   "versoes": [
     {
       "versao": "2.5.1",
@@ -16,7 +16,7 @@
     },
     {
       "versao": "2.5.0",
-      "url": "https://github.com/moraisnet1/morn-backup-releases/releases/download/v2.5.0/MornBackup_v2.5.0.exe",
+      "url": "https://github.com/moraisnet1/claude-backup-releases/releases/download/v2.5.0/MornBackup_v2.5.0.exe",
       "sha256": "58fe60f1fa3aa1490e04d972f7b8c16a5f5262f5bb808d6a7f93b315998ade8a",
       "tamanho": 101062144,
       "versaoMinima": null,
